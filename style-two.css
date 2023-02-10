@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+ 
+ /*HAMBURGUERIA PÁGINA PRINCIPAL*/
+ .img-lateral{
+    position: relative;
+    width: 150px;
+}
+  .links-two {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #642e21;
+}
+.links-two label {
+    padding: 10px 0;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: all .4s;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 100%;
+    color: #e55727;
+    font-weight: bold;
+}
+.links-two label:hover {
+    background-color: #b0a897;
+    color: #a55628;
+    font-weight: bold;
+}
+.scroll-two {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.sections-two {
+    transition: all .4s;
+}
+.bloco-two {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #dbcdb1;
+}
+#rd_cardapio-two {
+    display: none;
+}
+#rd_pedido-two {
+    display: none;
+}
+#rd_sobre-two {
+    display: none;
+}
+#rd_encontre-two{
+    display: none;
+}
+#rd_faleconosco-two {
+    display: none;
+}
+#rd_pedido-two:checked ~ .sections-two {
+    margin-top: -100vh;
+}        
+#rd_encontre-two:checked ~ .sections-two {
+    margin-top: -200vh;
+}
+#rd_sobre-two:checked ~ .sections-two {
+margin-top: -300vh;
+}
+#rd_faleconosco-two:checked ~ .sections-two {
+      margin-top: -400vh;
+      }
+
+/*CARPADIO - PAG RESTAURANTE PRINCIPAL*/
+
+
+#cardapio-two {
+  background-image: url(img-home/Avenida-Europa.png);
+}
+
+#icons-two{
+  width: 220px;
+  height: auto;
+  position: absolute;
+  top: 260%;
+  left: -150px;
+}
+#icons-two ul{
+  list-style: none;
+}
+#icons-two ul li{
+  display: block;
+  background: #131313;
+  padding: 10px;
+  height: 30px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+#icons-two ul li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+#icons-two ul li:nth-child(1){
+  background: #11aeef;
+}
+#icons-two ul li:nth-child(2){
+  background: #cf0a7d;
+}
+#icons-two ul li span{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: block;
+  right: 18px;
+  padding: 10px;
+}
+#icons-two ul li:hover{
+  cursor: pointer;
+  background: #131313;
+  opacity: 0.8;
+  border-left: 10px solid rgb(172, 165, 165);
+  transform: translateX(150px);
+}
+
+
+
+.slider-two-rest {
+    display: block;
+    height: 293px;
+    width: 320px;
+    margin: auto;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 240px;
+    padding-left: 20px;
+    padding-right: 50px;
+    background: rgba(252, 250, 250, 0.10);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 032);
+    backdrop-filter: blur(3.1px);
+   -webkit-backdrop-filter: blur(3.1px);
+  }
+  
+  .slider-two-rest li {
+    list-style: none;
+    position:absolute;
+  }
+  
+  .slider-two-rest img  {
+    margin: auto;
+    height: 500px;
+    width: 350px;
+    vertical-align: top;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .slider-two-rest input {
+    display: none;
+  }
+  .slider-two-rest label {
+    background-color: #e55727;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+  }
+  
+  .slider-two-rest li:nth-child(1) label {
+    right: 330px;
+    bottom:-15px;
+  }
+  
+  .slider-two-rest li:nth-child(2) label {
+    right: 310px;
+    bottom:-15px;
+  }
+  
+  .slider-two-rest li:nth-child(3) label {
+    right: 290px;
+    bottom:-15px;
+  }
+  
+  .slider-two-rest li:nth-child(4) label {
+    right: 270px;
+    bottom:-15px;
+  }
+  
+  .slider-two-rest li:nth-child(5) label {
+    right: 250px;
+    bottom:-15px;
+  }
+
+  .slider-two-rest li:nth-child(6) label {
+    right: 230px;
+    bottom:-15px;
+  }
+
+  .slider-two-rest li:nth-child(7) label {
+    right: 210px;
+    bottom:-15px;
+  }
+
+  .slider-two-rest li:nth-child(8) label {
+    right: 190px;
+    bottom:-15px;
+  }
+
+  .slider-two-rest li:nth-child(9) label {
+    right: 170px;
+    bottom:-15px;
+  }
+
+  .slider-two-rest li:nth-child(10) label {
+    right: 150px;
+    bottom:-15px;
+  }
+
+  .slider-two-rest li:nth-child(11) label {
+    left: 210px;
+    bottom:-15px;
+  }
+  .slider-two-rest li:nth-child(12) label {
+    left: 230px;
+    bottom:-15px;
+  }
+  .slider-two-rest li:nth-child(13) label {
+    left: 250px;
+    bottom:-15px;
+  }
+  .slider-two-rest li:nth-child(14) label {
+    left: 270px;
+    bottom:-15px;
+  }
+  .slider-two-rest li:nth-child(15) label {
+    left: 290px;
+    bottom:-15px;
+  }
+  .slider-two-rest li:nth-child(16) label {
+    left: 310px;
+    bottom:-15px;
+  }
+  .slider-two-rest li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+  }
+
+  /*PEDIDOS*/
+#pedido-two{
+    background-image: url(img-home/cardapio_Alagoas-Burger.png);
+    background-size: cover;
+  }
+.delivery-espelho1-two, .delivery-espelho2-two, .delivery-espelho3-two {
+  background: rgba(252, 250, 250, 0.10);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 032);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 5%;
+  width: 300px;
+  margin-bottom: 15px;
+}
+.pedido-two-texto{
+  color: #bf2f0f;
+  text-align: center;
+}
+.pedido-two-texto-link{
+  color: #e55727;
+  justify-items: center;
+  align-items: center;
+  text-decoration:none;
+  font-weight: 600;
+  font-size: larger;
+}
+
+
+/*ENCONTRE-NOS*/
+#encontre-two{
+  background-image: url(img-home/cardapio_Itacolomi-Burger.png);
+  background-size: cover;
+}
+.encontre-two-unidade1, .encontre-two-unidade2 {
+  background: rgba(252, 250, 250, 0.10);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 032);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 45px;
+  width: 250px;
+  margin-left: 15px;
+}
+.encontre-two-unidade1, h2 p{
+  color: #bf2f0f;
+  text-align: center;
+}
+.encontre-two-unidade2, h2 p{
+  color: #bf2f0f;
+  text-align: center;
+}
+
+/*QUEM SOMOS*/
+#sobre-two{
+  background-image: url(img-home/cardapio_Mathias-Burger.png);
+  background-size: cover;
+}
+.espelho-two {
+  /* From https://css.glass */
+    background: rgba(252, 250, 250, 0.10);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 032);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+  }
+  .conteudo-sobre-paragrafo-two{
+    text-align: justify;
+    color: #e55727;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /*FALE CONOSCO*/
+#faleconosco-two{
+    background-image: url(img-home/cardapio_Sabara-Burger.png);
+    background-size: cover;
+  }
+.box-two{
+  background: rgba(252, 250, 250, 0.10);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 032);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 15px;
+  color: #bf2f0f;
+  font-weight: bold;
+}
+fieldset {
+  border: none;
+
+}
+.inputBox-two {
+  position: relative;
+}
+
+.inputUser-two {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #bf2f0f;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+  color: #e2d7c8;
+}
+.inputUserbox-two {
+  outline: none;
+  color: #939395;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+.labelInput-two {
+position: absolute;
+top: 0px;
+left: 0px;
+pointer-events: none;
+transition: .5;
+}
+.inputUser-two:focus ~ .labelInput-two,
+ .inputUser-two:valid ~ .labelInput-two {
+    top: -20px;
+    font-size: 12px;
+    color: #939395;
+    font-weight: bold;
+}
+#submit-two{
+  background-image: linear-gradient(to right, rgb(191, 47, 15)  , rgb(94, 2, 2));
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#submit-two:hover{
+  background-image: linear-gradient(to right,rgb(229, 87, 39), rgb(209, 6, 6));
+}
