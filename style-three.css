@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+ 
+ /*FAST BURGUER PÁGINA PRINCIPAL*/
+ .img-lateral{
+    position: relative;
+    width: 150px;
+}
+  .links-three {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #221b1c;
+}
+.links-three label {
+    padding: 10px 0;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: all .4s;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 100%;
+    color: #f5a51c;
+    font-weight: bold;
+}
+.links-three label:hover {
+    background-color: #745d48;
+    color: #c76b1d;
+    font-weight: bold;
+}
+.scroll-three {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.sections-three {
+    transition: all .4s;
+}
+.bloco-three {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #dbcdb1;
+}
+#rd_cardapio-three {
+    display: none;
+}
+#rd_pedido-three {
+    display: none;
+}
+#rd_sobre-three {
+    display: none;
+}
+#rd_encontre-three{
+    display: none;
+}
+#rd_faleconosco-three {
+    display: none;
+}
+#rd_pedido-three:checked ~ .sections-three {
+    margin-top: -100vh;
+}        
+#rd_encontre-three:checked ~ .sections-three {
+    margin-top: -200vh;
+}
+#rd_sobre-three:checked ~ .sections-three {
+margin-top: -300vh;
+}
+#rd_faleconosco-three:checked ~ .sections-three {
+      margin-top: -400vh;
+      }
+
+/*CARPADIO - FAST BURGER PAG PRINCIPAL*/
+
+#icons-three{
+  width: 220px;
+  height: auto;
+  position: absolute;
+  top: 360%;
+  left: -150px;
+}
+#icons-three ul{
+  list-style: none;
+}
+#icons-three ul li{
+  display: block;
+  background: #131313;
+  padding: 10px;
+  height: 30px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+#icons-three ul li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+#icons-three ul li:nth-child(1){
+  background: #11aeef;
+}
+#icons-three ul li:nth-child(2){
+  background: #cf0a7d;
+}
+#icons-three ul li span{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: block;
+  right: 18px;
+  padding: 10px;
+}
+#icons-three ul li:hover{
+  cursor: pointer;
+  background: #131313;
+  opacity: 0.8;
+  border-left: 10px solid rgb(172, 165, 165);
+  transform: translateX(150px);
+}
+
+
+#cardapio-three {
+  background-image: url(img-home/batata.jpeg);
+  background-size: cover;
+}
+.slider-three-rest {
+    display: block;
+    height: 450px;
+    width: 600px;
+    margin: auto;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(252, 250, 250, 0.10);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 032);
+    backdrop-filter: blur(3.1px);
+   -webkit-backdrop-filter: blur(3.1px);
+  }
+  
+  .slider-three-rest li {
+    list-style: none;
+    position:absolute;
+  }
+  
+  .slider-three-rest img  {
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    vertical-align: top;
+    opacity: 0;
+    visibility: hidden;
+    margin-right: -251px;
+  }
+  
+  .slider-three-rest input {
+    display: none;
+  }
+  .slider-three-rest label {
+    background-color: #f5a51c;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+  }
+  
+  .slider-three-rest li:nth-child(1) label {
+    right: 330px;
+    bottom:-15px;
+  }
+  
+  .slider-three-rest li:nth-child(2) label {
+    right: 310px;
+    bottom:-15px;
+  }
+  
+  .slider-three-rest li:nth-child(3) label {
+    right: 290px;
+    bottom:-15px;
+  }
+  
+  .slider-three-rest li:nth-child(4) label {
+    right: 270px;
+    bottom:-15px;
+  }
+  
+  .slider-three-rest li:nth-child(5) label {
+    right: 250px;
+    bottom:-15px;
+  }
+
+  .slider-three-rest li:nth-child(6) label {
+    right: 230px;
+    bottom:-15px;
+  }
+
+  .slider-three-rest li:nth-child(7) label {
+    right: 210px;
+    bottom:-15px;
+  }
+
+  .slider-three-rest li:nth-child(8) label {
+    right: 190px;
+    bottom:-15px;
+  }
+
+  .slider-three-rest li:nth-child(9) label {
+    right: 170px;
+    bottom:-15px;
+  }
+  .slider-three-rest li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+  }
+
+  /*PEDIDOS*/
+#pedido-three{
+    background-image: url(img-home/batata.jpeg);
+    background-size: cover;
+  }
+.delivery-espelho1-three, .delivery-espelho2-three, .delivery-espelho3-three {
+  background: rgba(252, 250, 250, 0.10);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 032);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 5%;
+  width: 300px;
+  margin-bottom: 15px;
+}
+.pedido-three-texto{
+  color: #221b1c;
+  text-align: center;
+}
+.pedido-three-texto-link{
+  color: #f5a51c;
+  justify-items: center;
+  align-items: center;
+  text-decoration:none;
+  font-weight: bold;
+  font-size: larger;
+}
+
+
+/*ENCONTRE-NOS*/
+#encontre-three{
+  background-image: url(img-home/fastburguerfundo.png);
+  background-size: cover;
+}
+.encontre-three-unidade1, .encontre-three-unidade2 {
+  background: rgba(252, 250, 250, 0.10);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 032);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 45px;
+  width: 250px;
+  margin-left: 15px;
+}
+.encontre-three-unidade1, h2 p{
+  color: #f5a51c;
+  text-align: center;
+  font-weight: bold;
+}
+.encontre-three-unidade2, h2 p{
+  color: #f5a51c;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*QUEM SOMOS*/
+#sobre-three{
+  background-image: url(img-home/fastburguerfundo.png);
+  background-size: cover;
+}
+.espelho-three {
+  /* From https://css.glass */
+    background: rgba(252, 250, 250, 0.10);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 032);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+  }
+  .conteudo-sobre-paragrafo-three{
+    text-align: justify;
+    color: #f5a51c;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /*FALE CONOSCO*/
+#faleconosco-three{
+    background-image: url(img-home/fastburguerfundo.png);
+    background-size: cover;
+  }
+.box-three{
+  background: rgba(252, 250, 250, 0.10);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 032);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 15px;
+  color: #f5a51c;
+  font-weight: bold;
+}
+fieldset {
+  border: none;
+
+}
+.inputBox-three {
+  position: relative;
+}
+
+.inputUser-three {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #f5a51c;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+  color: white;
+}
+.inputUserbox-three {
+  outline: none;
+  color: #221b1c;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+.labelInput-three {
+position: absolute;
+top: 0px;
+left: 0px;
+pointer-events: none;
+transition: .5;
+}
+.inputUser-three:focus ~ .labelInput-three,
+ .inputUser-three:valid ~ .labelInput-three {
+    top: -20px;
+    font-size: 12px;
+    color: #780605;
+    font-weight: bold;
+}
+#submit-three{
+  background-image: linear-gradient(to right, rgb(245, 165, 28)  , rgb(161, 43, 22));
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#submit-three:hover{
+  background-image: linear-gradient(to right,rgb(245, 165, 28), rgb(209, 6, 6));
+}
