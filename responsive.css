@@ -44,9 +44,9 @@
 
 @media only screen and (max-width:767px) {
     #home img {
+    display: flex;
     width: 225px;
     height: 225px;
-    display: contents;
     }
     .img-lateral {
         width: 100px;
