@@ -28,14 +28,14 @@
 .espelho-three {
     width: 500px;
 }
-#icons {
-    top: 118%;
+    #icons {
+    top: 192%;
 }
 #icons-two {
-    top: 223%;
+    top: 299%;
 }
 #icons-three {
-    top: 328%;
+    top: 406%;
 }
 }
 
@@ -60,15 +60,7 @@
         font-size: 81%;
         margin-right: 7px;
 }
-#icons {
-    top: 192%;
-}
-#icons-two {
-    top: 299%;
-}
-#icons-three {
-    top: 406%;
-}
+
 #encontre-one, #encontre-two, #encontre-three {
     display: flex;
     flex-direction: column;
@@ -88,8 +80,7 @@
     margin-bottom: 144px;
     margin-top: 10px;
 }
-    
-    
+        
 .conteudo-sobre-paragrafo-one {
     font-size: x-small;
 }
