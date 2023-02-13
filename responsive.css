@@ -42,7 +42,7 @@
 }
 
 
-@media only screen and (max-width:767px) {
+@media only screenand and (min-width:370px) and (max-width:767px) {
             #home img {
     width: 150px;
     height: 150px;
