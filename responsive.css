@@ -102,5 +102,16 @@
     padding-left: 7px;
     padding-right: 27px;
 }
+        #icons {
+    top: 192%;
+    z-index: 1;
+}
+#icons-two {
+    top: 299%;
+    z-index:1;
+}
+#icons-three {
+    top: 406%;
+}
 }
         
