@@ -42,6 +42,11 @@
 }
 
 @media only-screen and (max-width:767px) {
+    #home img {
+        width: 155px;
+        heigth: 155px;
+        display: flex;
+    }
     .img-lateral {
         width: 100px;
     }
