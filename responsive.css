@@ -63,8 +63,8 @@
         font-size: 81%;
         margin-right: 7px;
 }
-#icons {
-    top: 111%;
+    #icons {
+    top: 192%
 }
 #icons-two {
     top: 216%;
@@ -126,6 +126,9 @@
 }
         .conteudo-sobre-paragrafo-one {
     font-size: x-small;
+}
+            #icons {
+    top: 192%
 }
 }
         
