@@ -28,15 +28,6 @@
 .espelho-three {
     width: 500px;
 }
-    #icons {
-    top: 113%;
-}
-#icons-two {
-    top: 220%;
-}
-#icons-three {
-    top: 328%;
-}
 }
 
 @media only screen and (max-width: 767px) {
@@ -101,6 +92,17 @@
     width: 350px;
     padding-left: 7px;
     padding-right: 27px;
+}
+        #icons {
+    top: 192%;
+    z-index:1;
+}
+#icons-two {
+    top: 299%;
+    z-index:1;
+}
+#icons-three {
+    top: 406%;
 }
  
 }
