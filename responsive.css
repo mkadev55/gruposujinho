@@ -76,21 +76,20 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.encontre-one-unidade1, .encontre-one-unidade2 {
-    padding: 32px;
-    width: 239px;
-}
-.encontre-two-unidade1, .encontre-two-unidade2 {
-    padding: 32px;
-    width: 239px;
-}
-.encontre-three-unidade1, .encontre-three-unidade2 {
-    padding: 32px;
-    width: 239px;
-}
 .encontre-one-unidade1, .encontre-two-unidade1, .encontre-three-unidade1 {
-    margin-top: 130px;
+    font-size: small;
+    width: 207px;
+    height: 221px;
 }
+.encontre-one-unidade2, .encontre-two-unidade2, .encontre-three-unidade2 {
+    font-size: small;
+    width: 207px;
+    height: 221px;
+    margin-bottom: 144px;
+    margin-top: 10px;
+}
+    
+    
 .conteudo-sobre-paragrafo-one {
     font-size: x-small;
 }
