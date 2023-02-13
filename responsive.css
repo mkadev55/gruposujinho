@@ -42,22 +42,11 @@
 }
 
 
-@media only screenand and (min-width:370px) and (max-width:767px) {
+@media only screenand and (max-width:767px) {
             #home img {
     width: 150px;
     height: 150px;
     display: flex; 
-}
-            .espelho-one {
-    margin-top: 93px;
-    padding-top: 3px;
-    padding-bottom: 10px;
-}
-            .conteudo-sobre-paragrafo-one {
-    font-size: x-small;
-}
-            #icons {
-    top: 192%
 }
     .img-lateral {
         width: 100px;
@@ -74,6 +63,18 @@
         font-size: 81%;
         margin-right: 7px;
 }
+            .espelho-one {
+    margin-top: 93px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+            .conteudo-sobre-paragrafo-one {
+    font-size: x-small;
+}
+            #icons {
+    top: 192%
+}
+    
 .slider-three-rest img {
     height: 200px;
     width: 370px;
