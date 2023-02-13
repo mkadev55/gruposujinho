@@ -114,11 +114,18 @@
 }
 
     @media only screen and (max-width: 500px) {
-    #home img {
+        #home img {
     width: 150px;
     height: 150px;
     display: flex; 
 }
-    }
-    
+        .espelho-one {
+    margin-top: 93px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+        .conteudo-sobre-paragrafo-one {
+    font-size: x-small;
+}
+}
         
